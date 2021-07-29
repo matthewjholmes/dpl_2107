@@ -3,7 +3,7 @@ class Author
   attr_reader :name, :books
 
   def initialize(params)
-    @name = params[:first_name] + " " + params[:last_name]
+    @name  = params[:first_name] + " " + params[:last_name]
     @books = []
   end
 
